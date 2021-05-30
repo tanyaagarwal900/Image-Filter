@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMAGE FILTERS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  </head>
+  <body>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+    <script src="save.js"></script>
+
+    <h1 class="animation">IMAGE FILTERS</h1>
+    
+    <canvas id="can1" ></canvas>
+    <p>
+      Image File:
+      <input type="file" mulitple="false" accept="image/*" id="loadImage" onchange="loadImage()">
+    </p>
+    
+   <div> 
+     <h2 id="HeadFilter">Filters</h2>
+   <p>   <input type="button" value="Grayscale"  onclick="dogray()">
+    
+    <input type="button" value="Half Grayscale" onclick="halfgray()">
+     
+     <input type="button" value="Red" onclick="dored()">
+    </p>
+    
+   <p> 
+     <input type="button" value="RGB Stripes" onclick="doRGB()">
+     
+     <input type="button" value="Rainbow" onclick="doRainbow()">
+      
+    </p>
+    <p>
+      <input type="button" value="Add Border" id="border" onclick="Border()">
+    
+     </p></div>
+    <p>
+      <input type="button" value="Reset Image" id="reset" onclick="resetImage()">
+    </p>
+    
+  </body>
+  
+</html>

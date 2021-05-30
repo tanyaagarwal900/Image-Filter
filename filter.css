@@ -1,0 +1,56 @@
+h1{
+  font-family:Monospace;
+  font-size:35pt;
+  //background-color:#000000;
+  padding:10px;
+  color:#ffffff;
+  animation:colorchange 20s infinite alternate;
+}
+  @-webkit-keyframes colorchange {
+		0%  {color: blue;}
+    10% {color: brown;}
+		20% {color: darkorange;}
+    30% {color: darkmagenta;}
+    40% {color: darkred;}
+	  50% {color: deeppink;}
+    60% {color: indigo;}
+    70% {color: #2980b9;}
+		80% {color: #f1c40f;}
+    90% {color: #2980b9;}
+    100% {color: pink;}
+
+}
+
+
+body{
+  margin-left:9pt;
+  font-size:14pt;
+ // background-color:#00008B;
+  font-family:Monospace;
+  text-align:center;
+  color:#40e0d0;
+ // border: 5px solid ;
+  background-image:url("https://images.unsplash.com/photo-1526161955674-92d767589833?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+}
+
+input{
+  font-size:14pt;
+  font-family:Monospace;
+}
+
+#can1{
+  height:200pt;
+  border:2px solid;
+}
+
+#HeadFilter{
+  color:#ffffff;
+  //background-color:white;
+ // height:25pt;
+ padding:3px;
+ // text-align:center;
+  animation:colorchange 20s infinite alternate;
+}
